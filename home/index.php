@@ -11,33 +11,16 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/signin.css" rel="stylesheet">
+    <link href="../assets/dist/headers.css" rel="stylesheet">
 
     <title>Sistema de Amparos</title>
   </head>
-  <body class='text-center'>
-
-    <main class="form-signin">
-        <form>
-            <i class="mb-4 fad fa-balance-scale fa-5x"></i>
-            <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Nombre de usuario</label>
-            </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Contraseña</label>
-            </div>
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Recuérdame
-                </label>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-        </form>
-    </main>
+  <body>
+      <header>
+          <?php
+            include_once('../assets/layouts/header.php');
+          ?>
+      </header>
 
     <?php
         // Put your code here
