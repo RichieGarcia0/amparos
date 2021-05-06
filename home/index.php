@@ -22,6 +22,16 @@
           ?>
       </header>
 
+      <main>
+        
+      </main>
+
+      <footer>
+          <?php
+            include_once('../assets/layouts/footer.php');
+          ?>
+      </footer>
+
     <?php
         // Put your code here
     ?>
